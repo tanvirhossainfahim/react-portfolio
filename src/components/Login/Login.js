@@ -2,7 +2,6 @@ import React from 'react';
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
-import { Redirect } from 'react-router';
 
 const Login = () => {
   firebase.initializeApp(firebaseConfig);
@@ -27,13 +26,13 @@ const Login = () => {
     var email = error.email;
     // The firebase.auth.AuthCredential type that was used.
     var credential = error.credential;
-    // ...
+    console.log(errorMessage,errorCode,error,email,credential);
   });
   }
   return (
     <div>
       <button style={{width:'100%', height:'80px', marginTop:'10px', backgroundColor:'tomato', color:'white', fontSize:'25px'}} onClick={handleGoogleSignIn}>SIGN IN WITH GOOGLE</button>
-      <Redirect from="/login" to='/dashboard'></Redirect>
+      
     </div>
   );
 };
