@@ -37,7 +37,6 @@ function App() {
         <Route path='/about'>
           <About/>
         </Route>
-        <Redirect from="/Login" to="/dashboard" />
         <Route path='/dashboard'>
           <Dashboard/>
         </Route>
