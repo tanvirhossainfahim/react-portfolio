@@ -6,7 +6,7 @@ Download Resume:
 
 A responsive website for mobile and desktop.
 
-Live link: 
+Live link: https://608ec38c521eb7bb3d16ee3a--kind-heisenberg-1ea828.netlify.app/
 
 
 Blog is comming soon please wait some times.
