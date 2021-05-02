@@ -66,7 +66,7 @@ const Prices = () => {
                   <li>{prices.msg5}</li>
                 </ul>
                 <div className="price__btn">
-                  <Link to='/login'>
+                  <Link to='/contact'>
                   <button className="btn btn-outline">
                     Purchase
                   </button>

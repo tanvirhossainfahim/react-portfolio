@@ -17,21 +17,21 @@ const Nav = () => {
                 <a href="#Home">Home</a>
               </li>
               <li>
-                <a href="Services">Services</a>
+                <a href="Projects">Projects</a>
               </li>
               <li>
                 <a href="About">About</a>
               </li>
               <li>
-                <a href="dashboard">Dashboard</a>
+                <a href="Blogs">Blogs</a>
+              </li>
+              <li>
+                <a href="Prices">Prices</a>
               </li>
               <li>
                 <a href="Contact">Contact</a>
               </li>
-              <li>
-                <a href="Login">Login</a>
-                
-              </li>
+              
             </ul>
           ) : (
             ""

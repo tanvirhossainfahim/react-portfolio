@@ -7,8 +7,8 @@ import {
 } from "react-icons/fa";
 const Banner = () => {
   const [state] = useState({
-    title: "I am Ariyan Al Fahim",
-    text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, nemo.',
+    title: "Hi! I am Tanvir Hossain Fahim",
+    text: 'A Junior web developer',
     image: "/images/profile1.png",
   });
   return (
@@ -33,11 +33,11 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href="/about" className="btn btn-outline">
-                    Click To Know More
+                  <a href="https://drive.google.com/file/d/1bNcicZdy6__Nw1Dkf6J4TnK2BWL3f1ND/view?usp=sharing" className="btn btn-outline">
+                    Download Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="#play" className="btn btn-smart">
+                  <a href="https://www.linkedin.com/in/tanvir-hossain-fahim-2066a9200/" className="btn btn-smart">
                     <FaPlay className="play" />
                   </a>
                 </div>

@@ -13,7 +13,8 @@ body {
   background: url("/images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  overflow: hidden ;
+  opacity: 1;
 }
 .navbar {
   width: 100%;
@@ -33,6 +34,7 @@ body {
 }
 .navbar__left-logo img {
   width: 110px;
+
 }
 
 .navbar__right {
@@ -44,7 +46,11 @@ body {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  padding: 0 15px;
+  padding: 0 32px;
+  margin-left: 50px;
+}
+.navbar__right li a:hover {
+  color: #ff4a57;
 }
 
 /* Helpers */
@@ -126,6 +132,13 @@ body {
   line-height: 40px;
   margin-bottom: 50px;
 }
+.input_box{
+  width: 100%;
+  padding-top: 5px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 8px;
+}
 
 .btn {
   outline: none;
@@ -151,13 +164,6 @@ body {
 .banner__img {
   padding: 0 30px;
   margin-top: 150px;
-}
-
-/* Servives */
-.services {
-  background: #1f2235;
-  padding: 100px 0;
-  color: #fff;
 }
 
 .common {
@@ -187,31 +193,38 @@ body {
   width: 100px;
   margin: 30px auto;
 }
-
-.services__box {
+.project_align{
+  text-align: center;
+  background-color: #1f2235;
+  background-position: cover !important;
+  color: #fff;
+  margin-bottom: -50px;
+  padding-top: 15px;
+}
+.projects__box {
   padding: 40px;
   background: #23263a;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
 }
-.services__box:hover {
-  background: #ff4a57;
+.projects__box:hover {
+  background: #8d8d8d;
 }
 .commonIcons {
   font-size: 40px;
   color: #ff4a57;
   margin-bottom: 15px;
 }
-.services__box:hover .commonIcons {
+.projects__box:hover .commonIcons {
   color: #fff;
 }
-.services__box-header {
+.projects__box-header {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-.services__box-p {
+.projects__box-p {
   font-size: 14px;
   color: #dfdfdf;
 }
@@ -252,6 +265,12 @@ body {
 }
 .info__contacts .col-6 {
   margin: 10px 0;
+}
+.text_center{
+  text-align: center;
+  background-color: #1f2235;
+  color: #fff;
+  margin-bottom: -50px;
 }
 /* Prices */
 .prices {

@@ -1,8 +1,8 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
-import Services from "./components/Services";
 import About from "./components/About";
 import Prices from "./components/Prices";
 import Contact from "./components/Contact";
@@ -10,10 +10,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
 } from "react-router-dom";
-import Login from "./components/Login/Login";
-import Dashboard from "./components/Dashboard/Dashboard";
+import Projects from "./components/Projects";
+import Blog from "./components/Blogs/Blogs";
 
 
 function App() {
@@ -23,26 +22,29 @@ function App() {
         <Route exact path='/'>
           <Banner/>
           <Nav/>
-          <Services/>
+          <Projects/>
           <About/>
+          <Blog/>
           <Prices/>
           <Contact/>
+          
         </Route>
-        <Route path='/login'>
-          <Login/>
-        </Route>
-        <Route path='/services'>
-          <Services/>
+        <Route path='/projects'>
+          <Projects/>
         </Route>
         <Route path='/about'>
           <About/>
         </Route>
-        <Route path='/dashboard'>
-          <Dashboard/>
+        <Route path='/Blogs'>
+          <Blog/>
+        </Route>
+        <Route path='/prices'>
+          <Prices/>
         </Route>
         <Route path='/contact'>
           <Contact/>
         </Route>
+        
         </Switch>
     </Router>
   );

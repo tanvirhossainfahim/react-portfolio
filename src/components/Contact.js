@@ -17,6 +17,11 @@ const Contact = () => {
               <p>
                 Hi I am Tanvir Hossain Fahim.I am from Bangladesh.My home town is in Mymensing Sherpur.My father is a simple businessman.If you know more about me then you can click those icons which is used in down.
               </p>
+              <div>
+              <input className="input_box" type="text" placeholder="type your email" /><br/><br/>
+              <input className="input_box" type="password" placeholder="type your password"/><br/><br/>
+              <button className='btn btn-outline'>Submit</button>
+              </div>
               <ul className="contactCircles">
                 <li>
                   <FaFacebookF className="contactIcon" />

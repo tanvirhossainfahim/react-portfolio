@@ -8,7 +8,7 @@ const About = () => {
   });
   const [state] = useState([
     { id: 1, title: "Name:", text: "Tanvir Hossain Fahim" },
-    { id: 2, title: "Email:", text: "example@domain.com" },
+    { id: 2, title: "Email:", text: "tanvirhossainfahim89@gmail.com" },
     { id: 3, title: "Phone:", text: "+8801737211622" },
     { id: 4, title: "Linkedin", text: "Fahim_123" },
   ]);
