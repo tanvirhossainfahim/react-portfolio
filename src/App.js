@@ -27,7 +27,6 @@ function App() {
           <Blog/>
           <Prices/>
           <Contact/>
-          
         </Route>
         <Route path='/projects'>
           <Projects/>
